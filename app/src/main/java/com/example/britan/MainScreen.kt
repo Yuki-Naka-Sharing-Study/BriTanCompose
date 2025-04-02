@@ -24,7 +24,7 @@ fun MainScreen(navController: NavHostController) {
     ) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(
-                text = "英単語クイズ",
+                text = "イギリス英単語クイズ",
                 style = MaterialTheme.typography.h4,
                 fontWeight = FontWeight.Bold
             )
