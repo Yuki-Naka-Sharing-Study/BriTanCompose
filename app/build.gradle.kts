@@ -40,6 +40,13 @@ android {
 }
 
 dependencies {
+    implementation("androidx.compose.ui:ui:1.7.8")
+    implementation("androidx.compose.material:material:1.7.8")
+    implementation("androidx.compose.runtime:runtime:1.7.8")
+    implementation("androidx.compose.foundation:foundation:1.7.8")
+    implementation("androidx.compose.material3:material3:1.3.1")
+    implementation("androidx.compose.animation:animation:1.7.8")
+    implementation("androidx.navigation:navigation-compose:2.8.9")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
